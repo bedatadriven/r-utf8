@@ -6,3 +6,8 @@
 /README
 /dist/
 /docs/articles/*.Rmd.in
+.idea
+.gradle
+/build
+*.iml
+

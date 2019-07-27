@@ -1,0 +1,17 @@
+
+
+plugins {
+    id 'org.renjin.package'
+}
+
+group = 'org.renjin.cran'
+
+renjin {
+    renjinVersion = '3.5-beta61'
+}
+
+dependencies {
+    testRuntime 'org.renjin.cran:testthat:2.1.1-b2'
+    testRuntime 'org.renjin.cran:xml2:1.2-renjin-10'
+}
+
